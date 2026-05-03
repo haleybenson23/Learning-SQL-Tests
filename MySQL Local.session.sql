@@ -1,0 +1,8 @@
+-- Question 3.2
+SELECT account_id, cust_id, avail_balance
+FROM account
+WHERE status = 'ACTIVE'
+AND avail_balance > 2500;
+
+SELECT *
+FROM employee;
